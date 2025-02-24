@@ -982,6 +982,22 @@ footer {
   }
 }
 @media (max-width: 550px) {
+  .header
+  {
+    width: 50vmax;
+  }
+  .contact-section
+  {
+    width: 29.5%;
+  }
+  .features
+  {
+    width: 29.5%;
+  }
+  .feature-main
+  {
+    width: 920px;
+  }
   .contact-grid {
     grid-template-columns: 1fr;
   }
@@ -993,7 +1009,7 @@ footer {
     font-size: 1rem;
   }
   .blog-more {
-    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    width: 30%; /* Chiếm toàn bộ chiều rộng */
     max-width: 55%; /* Không vượt quá chiều rộng của viewport */
     margin: 0; /* Căn giữa nếu có chiều rộng cố định */
     padding: 15px; /* Giảm padding nếu cần */
